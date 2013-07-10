@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Day:</b>
+  <%= @lunch.day %>
+</p>
+
+<p>
+  <b>Food:</b>
+  <%= @lunch.food %>
+</p>
+
+<p>
+  <b>Calories:</b>
+  <%= @lunch.calories %>
+</p>
+
+<p>
+  <b>Delicious:</b>
+  <%= @lunch.delicious %>
+</p>
+
+
+<%= link_to 'Edit', edit_lunch_path(@lunch) %> |
+<%= link_to 'Back', lunches_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  day: 2013-07-09
+  food: MyString
+  calories: 1
+  delicious: false
+
+two:
+  day: 2013-07-09
+  food: MyString
+  calories: 1
+  delicious: false

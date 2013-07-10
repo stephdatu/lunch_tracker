@@ -44,7 +44,7 @@ class LunchesController < ApplicationController
 
     respond_to do |format|
       if @lunch.save
-        format.html { redirect_to @lunch, notice: 'Lunch was successfully created.' }
+        format.html { redirect_to @lunch, notice: 'Your lunch was successfully added.' }
         format.json { render json: @lunch, status: :created, location: @lunch }
       else
         format.html { render action: "new" }
@@ -60,7 +60,7 @@ class LunchesController < ApplicationController
 
     respond_to do |format|
       if @lunch.update_attributes(params[:lunch])
-        format.html { redirect_to @lunch, notice: 'Lunch was successfully updated.' }
+        format.html { redirect_to @lunch, notice: 'Your lunch was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

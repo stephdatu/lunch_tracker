@@ -39,10 +39,10 @@ English view
 French view
 ![French view](lib/assets/french.png)
 
-Date format before
+Date format before  
 ![Date format before](lib/assets/Date-before.png)
 
-Date format after
+Date format after  
 ![Date format after](lib/assets/date-after.png)
 
 Regular format

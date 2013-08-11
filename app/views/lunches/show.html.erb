@@ -1,22 +1,22 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Day:</b>
-  <%= @lunch.day %>
+  <b><%= Lunch.human_attribute_name(:day) %>:</b>
+  <%= I18n.l @lunch.day, format: :diary_format %>
 </p>
 
 <p>
-  <b>Food:</b>
+  <b><%= Lunch.human_attribute_name(:food) %>:</b>
   <%= @lunch.food %>
 </p>
 
 <p>
-  <b>Calories:</b>
+  <b><%= Lunch.human_attribute_name(:calories) %>:</b>
   <%= @lunch.calories %>
 </p>
 
 <p>
-  <b>Delicious:</b>
+  <b><%= Lunch.human_attribute_name(:delicious) %>:</b>
   <%= @lunch.delicious %>
 </p>
 

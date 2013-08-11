@@ -1,8 +1,10 @@
 LunchTracker::Application.routes.draw do
-  resources :lunches
-
-  root to: "lunches#index"
-
+  scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
+    resources :lunches
+    root to: "lunches#index"
+  end
+  match '*path', to: redirect("/#{I18n.default_locale}/%{path}")
+  match '', to: redirect("/#{I18n.default_locale}")
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

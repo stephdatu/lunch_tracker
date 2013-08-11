@@ -1,15 +1,15 @@
-en:
+fr:
   simple_form:
-    "yes": 'Oui'
-    "no": 'Pas'
+    "yes": 'Yes'
+    "no": 'No'
     required:
-      text: 'demandé'
+      text: 'required'
       mark: '*'
       # You can uncomment the line below if you need to overwrite the whole required html.
       # When using html, text and mark won't be used.
       # html: '<abbr title="required">*</abbr>'
     error_notification:
-      default_message: "Oops! An error occurred! Please review the problems below:"
+      default_message: "Oops! Une erreur s'est produite! S'il vous plaît examiner les problèmes ci-dessous:"
     # Labels and hints examples
     # labels:
     #   defaults:

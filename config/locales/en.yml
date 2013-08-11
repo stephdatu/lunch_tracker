@@ -2,4 +2,71 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  new_lunch_success: "Your lunch was successfully added."
+  edit_lunch_success: "Your lunch was successfully updated."
+  layouts:
+    application:
+      language: "Language"
+  lunches:
+    index:
+      title: "My Lunch Tracker"
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+    new:
+      title: "Add your meal!"
+    edit:
+      title: "Edit your meal!"
+
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%e %b"
+      long: "%e %B %Y"
+      diary_format: "%A, %B %d, %Y"
+    abbr_day_names:
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
+    abbr_month_names:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    month_names:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+    order:
+    - :year
+    - :month
+    - :day

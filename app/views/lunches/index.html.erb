@@ -1,11 +1,11 @@
-<h1>My Lunch Tracker</h1>
+<h1><%= t ".title" %></h1>
 
 <table>
   <tr>
-    <th>Day</th>
-    <th>Food</th>
-    <th>Calories</th>
-    <th>Delicious?</th>
+    <th><%= Lunch.human_attribute_name(:day) %></th>
+    <th><%= Lunch.human_attribute_name(:food) %></th>
+    <th><%= Lunch.human_attribute_name(:calories) %></th>
+    <th><%= Lunch.human_attribute_name(:delicious) %>?</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,7 +13,7 @@
 
 <% @lunches.each do |lunch| %>
   <tr>
-    <td><%= lunch.day %></td>
+    <td><%= I18n.l lunch.day, format: :diary_format %></td>
     <td><%= lunch.food %></td>
     <td><%= lunch.calories %></td>
     <td><%= lunch.delicious %></td>

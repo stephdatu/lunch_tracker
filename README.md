@@ -1,5 +1,3 @@
-If something doesn't work, you can contact [Stephanie Datu](http://blog.stephdatu.com) at stephdatu@gmail.com and complain.
-
 # Code Fellows App-A-Day: Lunch Tracker
 
 By [Stephanie Datu](http://blog.stephdatu.com).

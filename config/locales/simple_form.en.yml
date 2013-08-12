@@ -1,9 +1,11 @@
 en:
   simple_form:
-    "yes": 'Oui'
-    "no": 'Pas'
+    "yes": 'Yes'
+    "no": 'No'
+    "true": 'True'
+    "false": 'False'
     required:
-      text: 'demandé'
+      text: 'required'
       mark: '*'
       # You can uncomment the line below if you need to overwrite the whole required html.
       # When using html, text and mark won't be used.
@@ -19,7 +21,8 @@ en:
     #       email: 'E-mail to sign in.'
     #     edit:
     #       email: 'E-mail.'
-    # hints:
+      hints:
+        delicious: "Check if it was delicious!"
     #   defaults:
     #     username: 'User name to sign in.'
     #     password: 'No special characters, please.'

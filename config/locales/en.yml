@@ -4,6 +4,16 @@
 en:
   new_lunch_success: "Your lunch was successfully added."
   edit_lunch_success: "Your lunch was successfully updated."
+  navigation:
+    edit: "Edit"
+    show: "Show"
+    destroy: "Destroy"
+    back: "Back"
+    new_lunch: "New Lunch"
+    english: "English"
+    french: "French"
+  'true': "Yes"
+  'false': "No"
   layouts:
     application:
       language: "Language"

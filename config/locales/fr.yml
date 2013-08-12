@@ -9,6 +9,16 @@
 fr:
   new_lunch_success: "Votre déjeuner a été ajouté avec succès."
   edit_lunch_success: "Votre déjeuner a été mis à jour."
+  navigation:
+    edit: "Éditer"
+    show: "Montrer"
+    destroy: "Détruire"
+    back: "Reculer"
+    new_lunch: "Nouveau Repas"
+    english: "Anglais"
+    french: "Français"
+  'true': "Oui"
+  'false': "Non"
   layouts:
     application:
       language: "Langue"

@@ -9,8 +9,8 @@
 <body>
 
 <%= t ".language" %>:
-<%= link_to_unless_current "English", locale: "en" %> |
-<%= link_to_unless_current "French", locale: "fr" %><BR>
+<%= link_to_unless_current t("navigation.english"), locale: "en" %> |
+<%= link_to_unless_current t("navigation.french"), locale: "fr" %><BR>
 
 <%= yield %>
 

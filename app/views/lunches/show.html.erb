@@ -2,7 +2,7 @@
 
 <p>
   <b><%= Lunch.human_attribute_name(:day) %>:</b>
-  <%= I18n.l @lunch.day, format: :diary_format %>
+  <%= l @lunch.day, format: :diary_format %>
 </p>
 
 <p>
@@ -17,9 +17,9 @@
 
 <p>
   <b><%= Lunch.human_attribute_name(:delicious) %>:</b>
-  <%= @lunch.delicious %>
+  <%= t(@lunch.delicious.to_s) %>
 </p>
 
 
-<%= link_to 'Edit', edit_lunch_path(@lunch) %> |
-<%= link_to 'Back', lunches_path %>
+<%= link_to t("navigation.edit"), edit_lunch_path(@lunch) %> |
+<%= link_to t("navigation.back"), lunches_path %>
